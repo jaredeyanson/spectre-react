@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/spectre-react/static/css/main.08db921f.chunk.css",
+    "main.js": "/spectre-react/static/js/main.ae2a1fc1.chunk.js",
+    "main.js.map": "/spectre-react/static/js/main.ae2a1fc1.chunk.js.map",
+    "runtime-main.js": "/spectre-react/static/js/runtime-main.453438e1.js",
+    "runtime-main.js.map": "/spectre-react/static/js/runtime-main.453438e1.js.map",
+    "static/js/2.7a92c371.chunk.js": "/spectre-react/static/js/2.7a92c371.chunk.js",
+    "static/js/2.7a92c371.chunk.js.map": "/spectre-react/static/js/2.7a92c371.chunk.js.map",
+    "index.html": "/spectre-react/index.html",
+    "static/css/main.08db921f.chunk.css.map": "/spectre-react/static/css/main.08db921f.chunk.css.map",
+    "static/js/2.7a92c371.chunk.js.LICENSE.txt": "/spectre-react/static/js/2.7a92c371.chunk.js.LICENSE.txt",
+    "static/media/welcome.css": "/spectre-react/static/media/MainBackgroundImage.657fde5d.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.453438e1.js",
+    "static/js/2.7a92c371.chunk.js",
+    "static/css/main.08db921f.chunk.css",
+    "static/js/main.ae2a1fc1.chunk.js"
+  ]
+}
