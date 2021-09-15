@@ -9,7 +9,7 @@ function AddModels() {
     const [charData, setCharData] = useState()
 
     useEffect(() => {
-        fetch('http://localhost:3000/data-character.json', {
+        fetch('../data-character.json', {
             headers: {
                 'Content-Type': 'application/json',
                 'Accept': 'application/json'

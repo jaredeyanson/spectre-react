@@ -7,7 +7,7 @@ function AddWeapon(){
     const [wpnData, setWpnData] = useState()
 
     useEffect(() => {
-        fetch('http://localhost:3000/data-weapons.json', {
+        fetch('../data-weapons.json', {
             headers: {
                 'Content-Type': 'application/json',
                 'Accept': 'application/json'

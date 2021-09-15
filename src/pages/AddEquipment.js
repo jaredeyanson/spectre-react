@@ -8,7 +8,7 @@ function AddEquipment(){
     const [equipData, setEquipData] = useState()
 
     useEffect(() => {
-        fetch('http://localhost:3000/data-equipment.json', {
+        fetch('../data-equipment.json', {
             headers: {
                 'Content-Type': 'application/json',
                 'Accept': 'application/json'
