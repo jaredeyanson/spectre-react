@@ -1,0 +1,5 @@
+.statDiv{
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15%;
+    text-align: center;
+}

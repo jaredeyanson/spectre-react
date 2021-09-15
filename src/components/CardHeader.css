@@ -1,0 +1,15 @@
+.cardHeader {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    text-align: start;
+
+    
+}
+
+
+
+.custNameInput{
+    height: 20px;
+    margin-top: 20px;
+    width: 50%;
+}

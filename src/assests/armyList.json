@@ -1,0 +1,85 @@
+[
+    {
+        "id": "",
+        "modelName": "",
+        "cusName": "",
+        "modelStats": [
+            {}
+        ],
+        "pnts": "",
+        "lvl": "",
+        "notes": "",
+        "primWpn": {
+            "type": "",
+            "name": "",
+            "wpnStats": {
+                "ri": "",
+                "lty": "",
+                "pen": ""
+            },
+            "eqp": [
+                {
+                    "name": "",
+                    "pnts": "",
+                    "spcRules": [
+
+                    ]
+                }
+            ]
+        },
+        "secWpn": {
+            "type": "",
+            "name": "",
+            "wpnStats": {
+                "ri": "",
+                "lty": "",
+                "pen": ""
+            },
+            "eqp": [
+                {
+                    "name": "",
+                    "pnts": "",
+                    "spcRules": [
+
+                    ]
+                }
+            ]
+        },
+        "sidearm": {
+            "type": "",
+            "name": "",
+            "wpnStats": {
+                "ri": "",
+                "lty": "",
+                "pen": ""
+            },
+            "eqp": [
+                {
+                    "name": "",
+                    "pnts": "",
+                    "spcRules": [
+
+                    ]
+                }
+            ]
+        },
+        "otherWpn": {
+            "type": "",
+            "name": "",
+            "wpnStats": {
+                "ri": "",
+                "lty": "",
+                "pen": ""
+            }
+        },
+        "otherEqp": [
+            {
+                "name":"",
+                "pnts":"",
+                "spcRules":[
+                    
+                ]
+            }
+        ]
+    }
+]

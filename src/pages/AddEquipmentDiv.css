@@ -1,0 +1,18 @@
+.equipStatDiv{
+    display: grid;
+    grid-template-columns: 20% 20% 10% 40% 10%;
+
+    background-size: 40px 40px;
+    background-image:
+    linear-gradient(to right, darkGreen 1px, transparent 1px),
+    linear-gradient(to bottom,darkGreen 1px, transparent 1px);
+    border-radius: 20px;
+    border: 1px solid olivedrab;
+    background-color: olivedrab;
+
+    text-align: center;
+}
+
+.equipDiv{
+   
+}

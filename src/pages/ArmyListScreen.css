@@ -1,0 +1,14 @@
+.headerBtn{
+    height: 50px;
+    padding: 10px;
+    border-radius: 15px;
+    background: radial-gradient(khaki 50%, olivedrab);
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 5px;
+
+}
+
+#armylist{
+    margin-top: 40px;
+}
