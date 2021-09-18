@@ -1,7 +1,7 @@
 import './CharacterStats.css'
 
 function CharacterStats(props) {
-    console.log(props.stats)
+    //console.log(props.stats)
     let stats = props.stats
     return (
         <div >

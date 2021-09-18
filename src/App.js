@@ -8,7 +8,7 @@ import ArmyListScreen from './pages/ArmyListScreen';
 import Welcome from './pages/Welcome.js';
 
 
-function App() {
+function App(props) {
 
   
   return (
@@ -20,7 +20,7 @@ function App() {
         <ArmyListScreen />
       </Route>
       <Route path='/armylist/addweapon'>
-        <AddWeapon  />
+        <AddWeapon/>
       </Route>
       <Route path='/armylist/addmodels'>
         <AddModels />

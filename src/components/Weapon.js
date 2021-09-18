@@ -1,12 +1,29 @@
 import './Weapon.css'
 import WeaponValues from './WeaponValues'
 import {Link} from 'react-router-dom'
+import {state} from '../state'
+import './CharacterCard.css'
 
 function Weapon(props) {
+    //console.log(props)
+    let thisWpn 
+    let wpnName = props.type
+    for (let i = 0; i < state.length; i++){
+        if (props.id == state[i].id){
+            let thisState = state[i]
+            thisWpn = thisState[wpnName]
+            //console.log(thisWpn)
+        }
+    }
+
+    function setBtnId(){
+        state.globalId = props.id
+    }
+
     return (
         <div className='weaponDiv'>
             <div>
-                <h3 className='title'>{props.props.name}</h3>
+                <h3 className='title'>{props.name}</h3>
             </div>
             <div className='statHeader'>
                 <p className='stats'>Type</p>
@@ -17,8 +34,8 @@ function Weapon(props) {
                 <p className='stats'>Pen</p>
                 <p className='stats'>Special Rules</p>
             </div>
-            <WeaponValues/>
-            <Link to='/armylist/addweapon'>Add Weapon</Link>
+            <WeaponValues className='headerBtn' id={props.id}/>
+            <Link to='/armylist/addweapon' className='headerBtn' type={props.type} id={props.id} onClick={() => {setBtnId()}}>Add Weapon</Link>
         </div>
     )
 }

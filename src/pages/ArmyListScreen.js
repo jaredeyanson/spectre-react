@@ -10,12 +10,12 @@ function ArmyListScreen() {
         <div id='armylist'>
            <Link to='./' className='headerBtn'>HOME</Link>
             <Link to='./armylist/addmodels' className='headerBtn'>ADD MODEL</Link>
-            <Link to='./armylist/addweapon' className='headerBtn'>ADD WEAPON</Link>
             <Link to='./armylist/equipment'className='headerBtn'>ADD EQUIPMENT</Link>
             <Link to='./armyList/offtableassets' className='headerBtn'>ADD OFF TABLE ASSETS</Link>
             {/* needs to be a loop */}
             
-            {state.map(a => {
+            {state.list.map(a => {
+                //console.log(a)
                 if (a === undefined){
 
                 }else {
@@ -23,7 +23,7 @@ function ArmyListScreen() {
                     
                     return (
                     <div>
-                      <CharacterCard name={a.name} points={a.points} level={a.level} stats={a.stats}/> 
+                      <CharacterCard id={a.id} name={a.name} points={a.points} level={a.level} stats={a.stats}/> 
                       {/* <CharacterDataDiv  stats={a.stats}/> */}
                     </div>
                     )
@@ -34,4 +34,4 @@ function ArmyListScreen() {
     );
 }
 
-export default ArmyListScreen; 
+export default ArmyListScreen;  

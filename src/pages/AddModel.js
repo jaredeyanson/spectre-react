@@ -40,12 +40,15 @@ function AddModels() {
             for (let h = 0; h < charData[i].model.length; h++){
                 if (b.target.id == charData[i].model[h].modelName){
                     let mod = charData[i].model[h]
-                    console.log(mod)
-                    state.push({
+                    //console.log(mod)
+                    state.list.push({
+                        id: Date.now(),
                         name: mod.modelName,
                         level: mod.level,
                         points: mod.points,
-                        stats: mod.stats
+                        stats: mod.stats,
+                        weapons: [],
+                        offTableAssest: []
                     })
                 }
             }
