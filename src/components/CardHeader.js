@@ -3,10 +3,12 @@ import CardHeaderStats from "./CardHeaderStats"
 import './CardHeader.css'
 
 function CardHeader(props) {
+    //console.log(props)
+
     return (
         <div className="cardHeader">
-            <CardHeaderName props={props}/>
-            <CardHeaderStats props={props}/>
+            <CardHeaderName name={props.name}/>
+            <CardHeaderStats level={props.level} points={props.points}/>
         </div>
     )
 }

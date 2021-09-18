@@ -2,11 +2,11 @@ import './Weapon.css'
 import WeaponValues from './WeaponValues'
 import {Link} from 'react-router-dom'
 
-function Weapon() {
+function Weapon(props) {
     return (
         <div className='weaponDiv'>
             <div>
-                <h3 className='title'>{props.name}</h3>
+                <h3 className='title'>{props.props.name}</h3>
             </div>
             <div className='statHeader'>
                 <p className='stats'>Type</p>

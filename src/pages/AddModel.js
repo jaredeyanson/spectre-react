@@ -1,4 +1,5 @@
 import CardHeader from "../components/CardHeader"
+import {state} from "../state"
 import { useState, useEffect } from "react";
 import { Link } from 'react-router-dom'
 import CharacterDataDiv from "../components/CharacterDataDiv";
@@ -28,14 +29,29 @@ function AddModels() {
     if (isLoading === true || charData === undefined) {
         return <p>loading</p>
     }
-
-    // function sendPost (){
-    //     fetch('http://localhost:3000/character.json', {
-    //         method: 'POST',
-    //         body: JSON.stringify('hello')
-    //     })
-    // }
-
+    
+    // state.push({
+    //     name: 'billy'
+    // })
+    
+    
+    function statePush (b){
+        for (let i = 0; i < charData.length; i++){
+            for (let h = 0; h < charData[i].model.length; h++){
+                if (b.target.id == charData[i].model[h].modelName){
+                    let mod = charData[i].model[h]
+                    console.log(mod)
+                    state.push({
+                        name: mod.modelName,
+                        level: mod.level,
+                        points: mod.points,
+                        stats: mod.stats
+                    })
+                }
+            }
+        }
+        
+    }
     return (
         <div>
             <Link to='../' className='headerBtn'>HOME</Link>
@@ -45,7 +61,10 @@ function AddModels() {
                         <div className="addCard" id={b.modelName}>
                             <CardHeader name={b.modelName} level={b.level} points={b.points} id={b.modelName} />
                             <CharacterDataDiv id={b.modelName} stats={b.stats}/>
-                            <Link to='/armylist' id={b.modelName} className='headerBtn'>SUBMIT</Link>
+                            <Link to='/armylist' id={b.modelName} className='headerBtn' onClick={(e) => {
+                                statePush(e)
+                                //console.log(e)
+                            }}>SUBMIT</Link>
                         </div>
                     )
                 })

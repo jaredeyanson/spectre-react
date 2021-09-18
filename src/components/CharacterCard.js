@@ -3,15 +3,15 @@ import CharacterDataDiv from "./CharacterDataDiv";
 import Weapon from "./Weapon";
 import './CharacterCard.css'
 
-function CharacterCard() {
-
+function CharacterCard(props) {
+    console.log(props)
     return (
         <div className='card'> 
-            <CardHeader />
-            <CharacterDataDiv/>
-            <Weapon name='Primary Weapon'/>
+            <CardHeader name={props.name} level={props.level} points={props.points}/>
+            <CharacterDataDiv stats={props.stats} />
+            {/* <Weapon name='Primary Weapon'/>
             <Weapon name='Secondary Weapon'/>
-            <Weapon name='Sidearm'/>
+            <Weapon name='Sidearm'/> */}
             
         </div>
     );
