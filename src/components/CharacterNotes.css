@@ -2,5 +2,12 @@
 
 .notesBox{
     width: 90%;
-    height: 75px
+    height: 75px;
+    background-size: 40px 40px;
+    background-image:
+    linear-gradient(to right, darkGreen 1px, transparent 1px),
+    linear-gradient(to bottom,darkGreen 1px, transparent 1px);
+    border-radius: 20px;
+    border: 1px solid olivedrab;
+    background-color: olivedrab;
 }

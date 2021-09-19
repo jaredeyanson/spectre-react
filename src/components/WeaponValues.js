@@ -14,10 +14,8 @@ function WeaponValues(props) {
 
     return (
         <div>
-            
                 {
                     thisWpn.map(a => {
-                        //console.log(a)
                         return (<div className='statHeader'>
 
                                 <p className='stats'>{a.category}</p>
@@ -37,11 +35,9 @@ function WeaponValues(props) {
                                     })
                                 }
                                 </div>
-                                {/* <p className='stats'>{a.specialRules}</p> */}
                         </div>)
                     })
                 }
-           
         </div>
     )
 }

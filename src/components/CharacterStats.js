@@ -7,7 +7,7 @@ function CharacterStats(props) {
         <div >
             <div className="statDiv">
                 {stats.map(a => {
-                    return <p>{a.statName}</p>
+                    return <p>{a.statAbbr}</p>
                 })}
             </div>
             <div className="statDiv">

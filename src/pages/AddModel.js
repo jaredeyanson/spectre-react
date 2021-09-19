@@ -48,6 +48,7 @@ function AddModels() {
                         points: mod.points,
                         stats: mod.stats,
                         weapons: [],
+                        equipment: [],
                         offTableAssest: []
                     })
                 }

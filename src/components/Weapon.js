@@ -5,14 +5,12 @@ import {state} from '../state'
 import './CharacterCard.css'
 
 function Weapon(props) {
-    //console.log(props)
     let thisWpn 
     let wpnName = props.type
     for (let i = 0; i < state.length; i++){
         if (props.id == state[i].id){
             let thisState = state[i]
             thisWpn = thisState[wpnName]
-            //console.log(thisWpn)
         }
     }
 
@@ -23,7 +21,7 @@ function Weapon(props) {
     return (
         <div className='weaponDiv'>
             <div>
-                <h3 className='title'>{props.name}</h3>
+                <h3 className='title'>Weapons</h3>
             </div>
             <div className='statHeader'>
                 <p className='stats'>Type</p>

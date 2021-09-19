@@ -4,7 +4,7 @@
 
 .statHeader {
     display: grid;
-    grid-template-columns: 15% 15% 7% 7% 7% 7% 42%;
+    grid-template-columns: 15% 15% 10% 10% 10% 10% 30%;
     /* text-align: start; */
     /* border: 1px solid black; */
 }
@@ -20,8 +20,7 @@
     /* grid-template-columns: 25% 75%; */
     grid-template-rows: auto;
     border: 1px solid black;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    
     margin-top: 15px;
     margin-bottom: 15px;
 }

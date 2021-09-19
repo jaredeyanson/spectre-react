@@ -29,30 +29,33 @@ function AddWeapon(props){
     }
 
     function handleClick(b, c){
-        //console.log(c)
-        let thisWpn 
         for (let i = 0; i < state.list.length; i++){
             if (state.globalId == state.list[i].id){
                 state.list[i].weapons.push(b)
-                //console.log(props.id)
             }
         }
-        console.log(state.list)
     }
     
-    //console.log(state)
     return(
         <div >
-            {/* <AddWeaponTitle/> */}
-            <Link to='../' className='headerBtn'>HOME</Link>
+            <Link to='../armylist' className='headerBtn'>BACK</Link>
             {wpnData.map(a => {
                 return(
                     <div className='wpnStatDiv'>
                         <p>{a.category}</p>
                         <p>{a.name}</p>
                         <p>{a.points}</p>
-                        <p>{a.rangeInt}</p>
+                        <p>{a.rangeint}</p>
                         <p>{a.lethality}</p>
+                        <p>{a.pen}</p>
+                        <div>
+                            {
+                                a.specialRules.map(b => {
+                                    return <p>{b.name + ": " + b.desc}</p>
+                                })
+                            }
+                        </div>
+                        {/* <p>special rules place holder</p> */}
                         <Link to='../armylist' className='headerBtn' id={props.id} onClick={(e) => {
                             handleClick(a, props)
                         }}>ADD</Link>

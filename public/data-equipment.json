@@ -5,210 +5,241 @@
         "equipType": "Weapon Attachments/Enhancements",
         "name": "Red Dot",
         "points": 3,
-        "spcRules": "+1 to targeting rolls in the first RI"
+        "spcRules": ["+1 to targeting rolls in the first RI"]
       },
       {
         "equipType": "Weapon Attachments/Enhancements",
         "name": "Laser Sight",
         "points": 3,
-        "spcRules": "+1 targeting roll in the first RI, first 2 RI at night w/ NVG"
+        "spcRules": ["+1 targeting roll in the first RI, first 2 RI at night w/ NVG"]
       },
       {
         "equipType": "Weapon Attachments/Enhancements",
         "name": "Scope",
         "points": 5,
-        "spcRules": "+1 targeting rolls in all but the 1st RI, if model did not move"
+        "spcRules": ["+1 targeting rolls in all but the 1st RI, if model did not move"]
       },
       {
         "equipType": "Weapon Attachments/Enhancements",
         "name": "Suppressor",
         "points": 5,
-        "spcRules": "not heard more than one RI away"
+        "spcRules": ["not heard more than one RI away"]
       },
       {
         "equipType": "Weapon Attachments/Enhancements",
         "name": "Flashlight/Torch",
-        "points": 1
+        "points": 1,
+        "spcRules": ["Double detection zone at night", "+2 for targeting against this model"]
       },
       {
         "equipType": "Weapon Attachments/Enhancements",
         "name": "AP Ammo",
         "points": 5,
-        "spcRules": "+1 penetration to base weapon"
+        "spcRules": ["+1 penetration to base weapon"]
       },
       {
         "equipType": "Weapon Attachments/Enhancements",
         "name": "Subsonic Ammo",
         "points": 5,
-        "spcRules": "models are only alerted with in half 2 RI; Cannot be fired past 3 RI, -2 penetration"
+        "spcRules": ["models are only alerted with in half 2 RI", " Cannot be fired past 3 RI", "-2 penetration"]
       },
       {
         "equipType": "Combat Gear",
         "name": "Body Armour",
         "points": 10,
-        "spcRules": "-1 on lethality roll"
+        "spcRules": ["-1 on lethality roll"]
       },
       {
         "equipType": "Combat Gear",
         "name": "Heavy Body Armour",
         "points": 12,
-        "spcRules": "-1 on lethality roll; successful lethality rolls must be re-rolled; -1 to Agility"
+        "spcRules": ["-1 on lethality roll", "successful lethality rolls must be re-rolled", "-1 to Agility"]
       },
       {
         "equipType": "Combat Gear",
         "name": "Ghillie Suit",
-        "points": 5
+        "points": 5,
+        "spcRules": ["+1 to defence while in cover", "-1 to enemy detection rolls", "Subject to hidden and detection rules"]
       },
       {
         "equipType": "Combat Gear",
         "name": "Night Vision Optics",
-        "points": 10
+        "points": 10,
+        "spcRules": ["Equiped Model follows daytime rules at night", "Smoke still obscures as normal"]
       },
       {
         "equipType": "Combat Gear",
         "name": "Smart Goggles",
-        "points": 12
+        "points": 12,
+        "spcRules": ["Equiped Model follows daytime rules at night", "Ignores the effects of smoke", "+1 to detection roll"]
       },
       {
         "equipType": "Combat Gear",
         "name": "Thermal Sight",
         "points": 14,
-        "spcRules": "roll to detect: +1 to results, +2 at night; scan command: +1 to roll; can see through smoke; +1 to targeting roll in all but 1st RI if not moved"
+        "spcRules": ["roll to detect: +1 to results", "+2 at night; scan command: +1 to roll; can see through smoke", "+1 to targeting roll in all but 1st RI if not moved"]
       },
       {
         "equipType": "Combat Gear",
         "name": "Radio Comms",
-        "points": 5
+        "points": 5,
+        "spcRules": ["Can communicate with any squand member with a radio, allowing them to use the squad leader's CD, even if not cohesive", "Can communicate with any friendly model on the board, see Alert rules"]
       },
       {
         "equipType": "Med Kit",
         "name": "Battlefield Trauma Kit",
-        "points": 5
+        "points": 5,
+        "spcRules":["Allows model to make the MEDIC! tactical action"]
       },
       {
         "equipType": "Command Kit",
         "name": "Long Range Comms",
-        "points": 15
+        "points": 15,
+        "spcRules": ["Can communcate with forces off the board", "Required for certain Off Table Assests"]
       },
       {
         "equipType": "Command Kit",
         "name": "Binos",
-        "points": 10
+        "points": 10,
+        "spcRules":["Receives a +1 modifier to Scan Command Action", "When calling for fire, has a Range Interavl of 36 in"]
       },
       {
         "equipType": "Command Kit",
         "name": "Laser Target Designator",
-        "points": 10
+        "points": 10,
+        "spcRules": ["A model with an LTD making the Command Action: Call for Fire may re-roll both their Command and Targeting rolls for that turn", "Model may not move or make any other actions for the rest of the turn"]
       },
       {
         "equipType": "Command Kit",
         "name": "Handheld Integrated Target System",
-        "points": 25
+        "points": 25,
+        "spcRules":["No targeting hit required for Call for Fire", "Any deviation rolls apply as usual"]
       },
       {
         "equipType": "Specialist Gear",
         "name": "Lockpicks",
-        "points": 5
+        "points": 5,
+        "spcRules":["Equipped model may silently breach a standard locked window or door if they pass an Agility test with a -1 modifier"]
       },
       {
         "equipType": "Specialist Gear",
         "name": "Breaching Charge",
-        "points": 10
+        "points": 10,
+        "spcRules":[]
       },
       {
         "equipType": "Specialist Gear",
         "name": "Breaching Tools",
-        "points": 5
+        "points": 5,
+        "spcRules":[]
       },
       {
         "equipType": "Specialist Gear",
         "name": "Ballistic Shield - Long",
-        "points": 10
+        "points": 10,
+        "spcRules":[]
       },
       {
         "equipType": "Specialist Gear",
         "name": "Ballistic Shield - Short",
-        "points": 5
+        "points": 5,
+        "spcRules":[]
       },
       {
         "equipType": "Specialist Gear",
         "name": "Rappelling Kit",
-        "points": 5
+        "points": 5,
+        "spcRules":[]
       },
       {
         "equipType": "Specialist Gear",
         "name": "Climbing Kit",
-        "points": 3
+        "points": 3,
+        "spcRules":[]
       },
       {
         "equipType": "Specialist Gear",
         "name": "Tactical Ladder",
-        "points": 3
+        "points": 3,
+        "spcRules":[]
       },
       {
         "equipType": "Specialist Gear",
         "name": "Tactical Diving Kit",
-        "points": 3
+        "points": 3,
+        "spcRules":[]
       },
       {
         "equipType": "Specialist Gear",
         "name": "Mine/IED Detector",
-        "points": 7
+        "points": 7,
+        "spcRules":[]
       },
       {
         "equipType": "Specialist Gear",
         "name": "EOD Kit",
-        "points": 20
+        "points": 20,
+        "spcRules":[]
       },
       {
         "equipType": "Specialist Gear",
         "name": "CBRN-E Detector",
-        "points": 5
+        "points": 5,
+        "spcRules":[]
       },
       {
         "equipType": "Specialist Gear",
         "name": "CBRN-E Suit (including Mask)",
-        "points": 5
+        "points": 5,
+        "spcRules":[]
       },
       {
         "equipType": "Specialist Gear",
         "name": "CBRN-E Mask Only",
-        "points": 3
+        "points": 3,
+        "spcRules":[]
       },
       {
         "equipType": "Specialist Gear",
         "name": "HAZMAT Suit",
-        "points": 6
+        "points": 6,
+        "spcRules":[]
       },
       {
         "equipType": "Specialist Gear",
         "name": "Personal (mini) C-IED Jammer",
-        "points": 10
+        "points": 10,
+        "spcRules":[]
       },
       {
         "equipType": "Specialist Gear",
         "name": "Squad Backpack C-IED Jammer",
-        "points": 15
+        "points": 15,
+        "spcRules":[]
       },
       {
         "equipType": "Specialist Gear",
         "name": "Vehicle Mounted C-IED Jammer",
-        "points": 25
+        "points": 25,
+        "spcRules":[]
       },
       {
         "equipType": "Specialist Gear",
         "name": "Backpack Comms Jammer",
-        "points": 15
+        "points": 15,
+        "spcRules":[]
       },
       {
         "equipType": "Specialist Gear",
         "name": "Directional Comms Jammer",
-        "points": 20
+        "points": 20,
+        "spcRules":[]
       },
       {
         "equipType": "Specialist Gear",
         "name": "Vehicle Mounted Area Comms Jammer",
-        "points": 25
+        "points": 25,
+        "spcRules":[]
       }
     ]
   }
