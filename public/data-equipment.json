@@ -125,13 +125,13 @@
         "equipType": "Specialist Gear",
         "name": "Breaching Charge",
         "points": 10,
-        "spcRules":[]
+        "spcRules":["Each charge can only be used once", "Each model on the other side of the breach point within 6in is Stunned"]
       },
       {
         "equipType": "Specialist Gear",
         "name": "Breaching Tools",
         "points": 5,
-        "spcRules":[]
+        "spcRules":["Can be used with breaching weapon or breaching charge", "If model used on of those methods, add +2 to the result of the breaching roll"]
       },
       {
         "equipType": "Specialist Gear",
@@ -143,37 +143,48 @@
         "equipType": "Specialist Gear",
         "name": "Ballistic Shield - Short",
         "points": 5,
-        "spcRules":[]
+        "spcRules":["move only move of their Agility stat and may only fire sidearms", "+2 to the equipped model's Defence when being fired upon", "+1 bonus in close combat"]
       },
       {
         "equipType": "Specialist Gear",
         "name": "Rappelling Kit",
         "points": 5,
-        "spcRules":[]
+        "spcRules":[
+          "To set up, model must pass an agility test in the movement and tactical action phase",
+          "The following move the model may be moved 3in up or 6in down",
+          "Rope stays in place for the remainder of the game",
+          "Can be used by any model"
+        ]
       },
       {
         "equipType": "Specialist Gear",
         "name": "Climbing Kit",
         "points": 3,
-        "spcRules":[]
+        "spcRules":["May move directly up and down impassable surfaces at the speed of their Agility stat"]
       },
       {
         "equipType": "Specialist Gear",
         "name": "Tactical Ladder",
         "points": 3,
-        "spcRules":[]
+        "spcRules":[
+          "Can be deployed against an object up to 1.5 in to allow models to cross an obstacle unhindered",
+          "May be deployed anywhere that would require an Agility test to cross; may be left in place or removed for later use",
+          "Light enough to be pulled up on roofs and elevated areas; denying enemy use"
+        ]
       },
       {
         "equipType": "Specialist Gear",
         "name": "Tactical Diving Kit",
         "points": 3,
-        "spcRules":[]
+        "spcRules":["May move through deep water at the speed of their Agility stat"]
       },
       {
         "equipType": "Specialist Gear",
         "name": "Mine/IED Detector",
         "points": 7,
-        "spcRules":[]
+        "spcRules":[
+          ""
+        ]
       },
       {
         "equipType": "Specialist Gear",

@@ -1,5 +1,8 @@
+import {state} from "../state"
+
 function CardHeaderStats(props) {
-    //console.log(props)
+    console.log(props)
+
     return (
         <div>
             <h3>Level: {props.level}</h3>

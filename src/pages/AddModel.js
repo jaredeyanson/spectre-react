@@ -46,6 +46,7 @@ function AddModels() {
                         name: mod.modelName,
                         level: mod.level,
                         points: mod.points,
+                        modelPoints: 0,
                         stats: mod.stats,
                         weapons: [],
                         equipment: [],
